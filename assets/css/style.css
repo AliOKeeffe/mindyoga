@@ -24,3 +24,35 @@ h1, h2 {
     float: left;
     font-size: 200%;
 }
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 3px;
+}
+
+#menu, #logo {
+    line-height: 75px;
+}
+
+#menu ul {
+    float: right;
+}
+
+#menu li {
+    float: left;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    background-color: rgba(194, 214, 206, 0.7);
+}
+
+.active {
+    background-color: rgba(194, 214, 206, 0.7);
+}
