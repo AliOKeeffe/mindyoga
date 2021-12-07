@@ -23,6 +23,8 @@ h1, h2 {
 #logo {
     float: left;
     font-size: 200%;
+    margin-left: 20px;
+    text-transform: uppercase;
 }
 
 #menu {
@@ -60,14 +62,39 @@ h1, h2 {
     border-radius: 5px;
 }
 
-/* hero-image */
+/* hero-image and cover text*/
+
+#hero-outer {
+    position: relative;
+    
+}
+
 #hero-image {
     width: 100%;
     height: 600px;
     background: url(../images/heroimage.jpg) no-repeat center center;
     background-size: cover;
+    overflow: hidden;
 
    
 }
 
+#cover-text h1 {
+    color: white;
+    font-size: 200%;
+    text-transform: uppercase;
 
+}
+
+#cover-text {
+    padding: 10px;
+    width: 800px;
+    height: auto;
+    background-color: rgba(44, 65, 56, 0.5);
+   
+    text-align: center;
+
+    position: absolute;
+    right: 50px;
+    bottom: 300px;
+}
