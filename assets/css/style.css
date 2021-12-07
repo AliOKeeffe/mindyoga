@@ -1,9 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat:wght@300;400&family=Oswald:wght@300;600&display=swap');
 
-* {
+html, body {
     margin: 0;
     padding: 0;
-    border: none;
 }
 
 body {
@@ -107,6 +106,9 @@ h1, h2 {
 
 #about-text {
     text-align: center;
+    width: 50%;
+    display: block;
+    margin: 0 auto;
 }
 
 #about-text h1 {
@@ -116,7 +118,7 @@ h1, h2 {
 }
 
 #pose-links {
-    margin: 100px;
+    margin: 50px 200px;
 }
 
 #pose-links div {
@@ -133,10 +135,45 @@ h1, h2 {
     margin: 0 auto;
 }
 
-#pose-links h2 {
+#pose-links h4 {
     text-align: center;
+    font-size: 110%;
+    letter-spacing: 3px;
     text-transform: uppercase;
     padding-top: 20px;
 }
 
-#anxiety
+#pose-links a {
+    color: inherit;
+    padding: 10px;
+    text-decoration: none;
+}
+
+#pose-links a:hover {
+    background-color: rgba(194, 214, 206, 0.5);
+    border-radius: 5px;
+}
+
+/* yoga poses section */
+
+#tree-pose {
+    height: 600px;
+    width: 100%;
+}
+
+#tree-pose-image {
+    float: left;
+    width: 50%;
+    text-align: center;
+    
+}
+
+#tree-pose-image img {
+    height: 600px;
+}
+
+
+#tree-pose-text {
+    float: right;
+    width: 50%;
+}
