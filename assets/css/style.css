@@ -66,6 +66,9 @@ h1, h2 {
 
 #hero-outer {
     position: relative;
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
     
 }
 
@@ -74,21 +77,17 @@ h1, h2 {
     height: 600px;
     background: url(../images/heroimage.jpg) no-repeat center center;
     background-size: cover;
-    overflow: hidden;
-
-   
 }
 
 #cover-text h1 {
     color: white;
     font-size: 200%;
     text-transform: uppercase;
-
 }
 
 #cover-text {
     padding: 10px;
-    width: 800px;
+    width: 700px;
     height: auto;
     background-color: rgba(44, 65, 56, 0.5);
    
@@ -98,3 +97,46 @@ h1, h2 {
     right: 50px;
     bottom: 300px;
 }
+
+/* About Section */
+
+#about-outer {
+    height: 600px;
+    width: 100%;
+}
+
+#about-text {
+    text-align: center;
+}
+
+#about-text h1 {
+    text-transform: uppercase;
+    padding-top: 20px;
+
+}
+
+#pose-links {
+    margin: 100px;
+}
+
+#pose-links div {
+    width: 20%;
+    float: left;
+}
+
+.yoga-silhouttes {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+#pose-links h2 {
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 20px;
+}
+
+#anxiety
