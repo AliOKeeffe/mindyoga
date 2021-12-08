@@ -156,24 +156,70 @@ h1, h2 {
 
 /* yoga poses section */
 
-#tree-pose {
+.pose-content1 {
+    height: 600px;
+    width: 100%;
+    background-color: rgba(194, 214, 206, 0.5);
+}
+
+.pose-content2 {
     height: 600px;
     width: 100%;
 }
 
-#tree-pose-image {
+.pose-image-left {
     float: left;
     width: 50%;
     text-align: center;
     
 }
 
-#tree-pose-image img {
-    height: 600px;
-}
-
-
-#tree-pose-text {
+.pose-image-right {
     float: right;
     width: 50%;
+    text-align: center;
+    
+}
+
+.pose-image-inner-left {
+    height: 500px;
+    width: 60%;
+    float: right;
+}
+
+.pose-image-inner-left img {
+    height: 500px;
+    padding-top: 50px;
+}
+.pose-image-inner-right {
+    height: 500px;
+    width: 60%;
+    float: left;
+}
+
+.pose-image-inner-right img {
+    height: 500px;
+    padding-top: 50px;
+}
+.pose-text-left {
+    float: left;
+    width: 50%;
+}
+
+.pose-text-right {
+    float: right;
+    width: 50%;
+}
+
+.pose-text-inner {
+    width: 60%;
+    float: left;
+    padding-top: 50px;
+}
+
+.pose-text-inner-left {
+    width: 60%;
+    float: right;
+    padding-top: 50px;
+    text-align: right;
 }
