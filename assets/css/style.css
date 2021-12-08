@@ -246,7 +246,44 @@ h1, h2 {
 
 #contribute-form {
     position: absolute;
-    left: 10%;
+    right: 10%;
     bottom: 10%;
     background-color: rgba(194, 214, 206, 0.5);
+    max-width: 400px;
+    padding: 20px;
+    margin: 20px;
+}
+
+#contribute-form h3 {
+    text-transform: uppercase;
+}
+
+.text-input {
+    width: 75%;
+    border: 1px solid white;
+    padding: 10px;
+    margin: 5px 0 20px 0;
+
+}
+
+#suggestion {
+    border: 1px solid white;
+    padding: 10px;
+    margin: 5px 0 20px 0;
+}
+
+#checkbox {
+    border: 1px solid white;
+    padding: 10px;
+    margin: 5px 0 20px 0;
+}
+
+.contribute-button {
+    padding: 5px 20px;
+    background-color: rgba(194, 214, 206, 0.5);
+    font-size: 100%;
+    text-align: center;
+    border-radius: 4px;
+    color: #4b5054;
+    border: none;
 }

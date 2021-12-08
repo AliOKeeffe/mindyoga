@@ -247,13 +247,28 @@
             <video autoplay muted loop>
                 <source src="/assets/images/wavesvideo.mp4" type="video/mp4">
             </video>
-            <form id=contribute-form>
-                <h2>Contribute Your Yoga Poses</h2>
-                <label for="fname">First Name</label>
-                <input type="text" name="first_name" id="fname">
-
-            </form>
         </div>
+            <form id=contribute-form method="post" action="https://formdump.codeinstitute.net/">
+                <h3>Contribute Your Yoga Poses</h3>
+                <label for="fullname">Full Name</label>
+                <br>
+                <input class="text-input" type="text" name="full_name" id="fullname" required placeholder="Full Name">
+                <br>
+                <label for="email">Email</label>
+                <br>
+                <input class="text-input" type="email" name="email" id="email" required placeholder="Email">
+                <br>
+                <label for="suggestion">Submit Suggestion</label>
+                <br>
+                <textarea name="suggestion" id="suggestion" cols="36" rows="5" placeholder="Please insert for suggested yoga content here"></textarea>
+                <br>
+                <label for="checkbox">I would like to receive the MindYoga email newsletter</label>
+                <input type="checkbox" id="checkbox" name="checkbox">
+                <br>
+                <input class="contribute-button" type="submit" value="Submit">
+                
+            </form>
+        
     </section>
     <footer>
         social media icons
