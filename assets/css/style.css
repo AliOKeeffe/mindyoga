@@ -223,3 +223,30 @@ h1, h2 {
     padding-top: 50px;
     text-align: right;
 }
+
+/* Form Section */
+
+#form-outer {
+    height: 600px;
+    width: 100%;
+    background-color: gray;
+    position: relative;
+}
+
+#myvideo {
+    height: 600px;
+    width: 100%;
+}
+
+#myvideo video {
+    height: 600px;
+    width: 100%;
+    object-fit: cover;
+}
+
+#contribute-form {
+    position: absolute;
+    left: 10%;
+    bottom: 10%;
+    background-color: rgba(194, 214, 206, 0.5);
+}
