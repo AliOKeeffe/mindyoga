@@ -114,6 +114,7 @@ h1, h2 {
 
 #about-outer {
     width: 100%;
+    padding: 20px 0;
 }
 
 #about-text {
@@ -126,8 +127,6 @@ h1, h2 {
 
 #about-text h1 {
     text-transform: uppercase;
-    padding-top: 20px;
-
 }
 
 #pose-links {
@@ -168,80 +167,49 @@ h1, h2 {
 
 /* yoga poses section */
 
-.pose-content1 {
-    height: 600px;
-    width: 100%;
+.pose-content-wrapper {
+    width: 100%; 
+}
+
+.green-background {
     background-color: rgba(194, 214, 206, 0.5);
-    padding-top: 50px;
-    padding-right: 100px;
 }
 
-.pose-content2 {
-    height: 600px;
-    width: 100%;
-    padding-top: 50px;
-    
-}
-
-.pose-image-left {
-    float: left;
+.column {
     width: 50%;
-    text-align: center;
-    
 }
 
-.pose-image-right {
+.right {
     float: right;
-    width: 50%;
+}
+
+.left {
+    float: left;
+}
+
+.content-image {
     text-align: center;
-    
+    padding: 50px 0;
 }
 
-/* .pose-image-inner-left {
-    height: 500px;
-    width: 80%;
-    float: right;
-} */
+.content-text-right {
+    text-align: justify;
+    padding: 50px 100px 50px 0;
 
-.pose-image-inner-left img {
-    height: 500px;
 }
 
-/* .pose-image-inner-right {
-    height: 500px;
-    width: 80%;
-    float: left;
-} */
-
-.pose-image-inner-right img {
-    height: 500px;
+.content-text-left {
+    text-align: justify;
+    padding: 50px 0px 50px 100px;
 }
 
-.pose-text-left {
-    float: left;
-    width: 50%;
+.content-text-left h2 {
     text-align: right;
 }
 
-.pose-text-right {
-    float: right;
-    width: 50%;
-    text-align: left;
+.content-image img {
+    height: 500px;
 }
-
-/* .pose-text-inner-right {
-    width: 80%;
-    float: left;
-    padding-top: 50px;
-
-} */
-
-/* .pose-text-inner-left {
-    width: 80%;
-    float: right;
-    padding-top: 50px;
-    text-align: right;
-} */
 
 /* Form Section */
 
@@ -361,8 +329,25 @@ footer {
     #cover-text h1 {
         font-size: 160%;
     }
+        
+    .column {
+        width: 100%;
+    }
 
-     
+    .content-image {
+        padding: 50px 0 0 0;
+    }
+
+    .content-text-left, .content-text-right {
+        padding: 0;
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .column h2 {
+        text-align: center;
+    }
+
 }
 
 /* For medium screen sizes from 950px wide and down */
