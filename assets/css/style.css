@@ -365,4 +365,37 @@ footer {
         line-height: 40px;
 
     }
+
+    #logo {
+        margin-bottom: 0;
+    }
+    
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        font-size: 90%;
+    }
+    
+    #menu, #logo {
+        line-height: 50px;
+    }
+    
+    #menu ul {
+        padding: 0;
+        margin: 0;
+    }
+    
+    #menu li {
+        float: left;
+        margin-right: 0px;
+    }
+    
+    #menu a {
+        padding: 5px;
+    }
+    
+     
+
 }
