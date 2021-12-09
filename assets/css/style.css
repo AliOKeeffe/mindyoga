@@ -19,7 +19,6 @@ header {
     width: 100%;
     background-color: white;
     z-index: 3;
-    height: 120px;
 }
 
 h1, h2 {
@@ -128,7 +127,7 @@ h1, h2 {
 }
 
 #pose-links {
-    margin: 50px 200px;
+    margin: 50px 150px;
 }
 
 #pose-links div {
@@ -137,8 +136,8 @@ h1, h2 {
 }
 
 .yoga-silhouttes {
-    height: 200px;
-    width: 200px;
+    height: 150px;
+    width: 150px;
     border-radius: 50%;
     text-align: center;
     display: block;
@@ -193,7 +192,7 @@ h1, h2 {
 
 .pose-image-inner-left {
     height: 500px;
-    width: 60%;
+    width: 80%;
     float: right;
 }
 
@@ -203,7 +202,7 @@ h1, h2 {
 }
 .pose-image-inner-right {
     height: 500px;
-    width: 60%;
+    width: 80%;
     float: left;
 }
 
@@ -219,16 +218,18 @@ h1, h2 {
 .pose-text-right {
     float: right;
     width: 50%;
+    position: relative;
 }
 
-.pose-text-inner {
-    width: 60%;
+.pose-text-inner-right {
+    width: 80%;
     float: left;
     padding-top: 50px;
+
 }
 
 .pose-text-inner-left {
-    width: 60%;
+    width: 80%;
     float: right;
     padding-top: 50px;
     text-align: right;
