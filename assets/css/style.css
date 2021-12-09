@@ -5,6 +5,10 @@ html, body {
     padding: 0;
 }
 
+.clear-both {
+    clear: both;
+}
+
 body {
     font-family: Montserrat, sans-serif;
     font-weight: 300;
@@ -89,13 +93,13 @@ h1, h2 {
 
 #cover-text h1 {
     color: white;
-    font-size: 200%;
+    font-size: 180%;
     text-transform: uppercase;
 }
 
 #cover-text {
     padding: 10px;
-    width: 700px;
+    width: 400px;
     height: auto;
     background-color: rgba(44, 65, 56, 0.5);
    
@@ -109,7 +113,6 @@ h1, h2 {
 /* About Section */
 
 #about-outer {
-    height: 600px;
     width: 100%;
 }
 
@@ -150,7 +153,6 @@ h1, h2 {
     font-size: 110%;
     letter-spacing: 3px;
     text-transform: uppercase;
-    padding-top: 20px;
 }
 
 #pose-links a {
@@ -328,7 +330,6 @@ footer {
 @media screen and (max-width: 1200px) {
     
     #about-outer {
-        height: 1400px;
         width: 70%;
         margin: 0 auto;
     }
@@ -352,14 +353,15 @@ footer {
         padding-top: 0
     }
 
+    #cover-text h1 {
+        font-size: 160%;
+    }
+
+     
 }
 
 /* For medium screen sizes from 950px wide and down */
 @media screen and (max-width: 950px) {
-
-    #about-outer {
-        height: 1800px;
-    }
 
     #about-text h1 {
         line-height: 40px;
@@ -396,6 +398,17 @@ footer {
         padding: 5px;
     }
     
-     
+    #cover-text h1 {
+        font-size: 140%;
+    }
+    
+    #cover-text {
+        padding: 10px;
+        width: 300px;
+        height: auto;
+        position: absolute;
+        left: 0px;
+        bottom: 50px;
+    }
 
 }
