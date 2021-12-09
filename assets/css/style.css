@@ -115,9 +115,10 @@ h1, h2 {
 
 #about-text {
     text-align: center;
-    width: 50%;
+    width: 70%;
     display: block;
     margin: 0 auto;
+    line-height: 30px;
 }
 
 #about-text h1 {
@@ -318,4 +319,50 @@ footer {
     margin-top: 40px;
     padding: 0 30px;
     color: #4b5054;
+}
+
+/* media queries */
+
+/* For larger to medium screens size  from 1200px wide and down */
+
+@media screen and (max-width: 1200px) {
+    
+    #about-outer {
+        height: 1400px;
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    #about-text {
+        width: 100%;
+    }
+
+    #pose-links {
+        margin: 0
+    }
+
+    #pose-links div {
+        clear: both;
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    #pose-links h4 {
+        padding-top: 0
+    }
+
+}
+
+/* For medium screen sizes from 950px wide and down */
+@media screen and (max-width: 950px) {
+
+    #about-outer {
+        height: 1800px;
+    }
+
+    #about-text h1 {
+        line-height: 40px;
+
+    }
 }
