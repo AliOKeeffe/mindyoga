@@ -172,11 +172,15 @@ h1, h2 {
     height: 600px;
     width: 100%;
     background-color: rgba(194, 214, 206, 0.5);
+    padding-top: 50px;
+    padding-right: 100px;
 }
 
 .pose-content2 {
     height: 600px;
     width: 100%;
+    padding-top: 50px;
+    
 }
 
 .pose-image-left {
@@ -193,50 +197,51 @@ h1, h2 {
     
 }
 
-.pose-image-inner-left {
+/* .pose-image-inner-left {
     height: 500px;
     width: 80%;
     float: right;
-}
+} */
 
 .pose-image-inner-left img {
     height: 500px;
-    padding-top: 50px;
 }
-.pose-image-inner-right {
+
+/* .pose-image-inner-right {
     height: 500px;
     width: 80%;
     float: left;
-}
+} */
 
 .pose-image-inner-right img {
     height: 500px;
-    padding-top: 50px;
 }
+
 .pose-text-left {
     float: left;
     width: 50%;
+    text-align: right;
 }
 
 .pose-text-right {
     float: right;
     width: 50%;
-    position: relative;
+    text-align: left;
 }
 
-.pose-text-inner-right {
+/* .pose-text-inner-right {
     width: 80%;
     float: left;
     padding-top: 50px;
 
-}
+} */
 
-.pose-text-inner-left {
+/* .pose-text-inner-left {
     width: 80%;
     float: right;
     padding-top: 50px;
     text-align: right;
-}
+} */
 
 /* Form Section */
 
