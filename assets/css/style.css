@@ -15,6 +15,10 @@ body {
     color: #4b5054;
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+
 /* Headings and logo */
 
 header {
@@ -68,9 +72,20 @@ h1, h2 {
     border-radius: 5px;
 }
 
-.active {
+
+/* #menu a:active {
     background-color: rgba(194, 214, 206, 0.5);
     border-radius: 5px;
+}
+
+/* .active {
+    background-color: rgba(194, 214, 206, 0.5);
+    border-radius: 5px;
+} */
+
+.spacing-under-nav {
+    position: relative;
+    top: -100px;
 }
 
 /* hero-image and cover text*/
@@ -91,7 +106,7 @@ h1, h2 {
     background-size: cover;
 }
 
-#cover-text h1 {
+#cover-text h2 {
     color: white;
     font-size: 180%;
     text-transform: uppercase;
@@ -125,7 +140,7 @@ h1, h2 {
     line-height: 30px;
 }
 
-#about-text h1 {
+#about-text h2 {
     text-transform: uppercase;
 }
 
@@ -169,10 +184,16 @@ h1, h2 {
 
 .pose-content-wrapper {
     width: 100%; 
+    padding: 20px 0;
 }
 
 .green-background {
     background-color: rgba(194, 214, 206, 0.5);
+}
+
+#poses-header {
+    text-transform: uppercase;
+    text-align: center;
 }
 
 .column {
@@ -194,13 +215,13 @@ h1, h2 {
 
 .content-text-right {
     text-align: justify;
-    padding: 50px 100px 50px 0;
+    padding: 50px 200px 50px 0;
 
 }
 
 .content-text-left {
     text-align: justify;
-    padding: 50px 0px 50px 100px;
+    padding: 50px 0px 50px 200px;
 }
 
 .content-text-left h2 {
@@ -246,7 +267,7 @@ h1, h2 {
 }
 
 .text-input {
-    width: 75%;
+    width: 90%;
     border: 1px solid white;
     padding: 10px;
     margin: 5px 0 20px 0;
@@ -326,7 +347,7 @@ footer {
         padding-top: 0
     }
 
-    #cover-text h1 {
+    #cover-text h2 {
         font-size: 160%;
     }
         
@@ -353,7 +374,7 @@ footer {
 /* For medium screen sizes from 950px wide and down */
 @media screen and (max-width: 950px) {
 
-    #about-text h1 {
+    #about-text h2 {
         line-height: 40px;
 
     }
@@ -388,7 +409,7 @@ footer {
         padding: 5px;
     }
     
-    #cover-text h1 {
+    #cover-text h2 {
         font-size: 140%;
     }
     
@@ -402,3 +423,5 @@ footer {
     }
 
 }
+
+
