@@ -258,6 +258,25 @@ h1, h2 {
     height: 500px;
 }
 
+/* Maps Section */
+
+#map-outer {
+    background-color: rgb(20, 42, 43);
+    padding: 20px 20px 40px 20px;
+    
+}
+
+#map-outer h2 {
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+}
+
+#map-inner {
+    width: 90%;
+    margin: 0 auto;
+}
+
 /* Form Section */
 
 #form-outer {
@@ -276,7 +295,7 @@ video {
     top: 5%;
     right: 5%;
     bottom: 5%;
-    background-color: rgba(9, 74, 76, 0.8);
+    background-color: rgba(20, 42, 43, 0.8);
     max-width: 400px;
     padding: 20px;
     color: white;
