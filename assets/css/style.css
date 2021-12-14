@@ -148,6 +148,7 @@ h1, h2 {
     position: absolute;
     right: 50px;
     bottom: 300px;
+    
 }
 
 /* About Section */
@@ -355,6 +356,10 @@ footer {
     #cover-text h2 {
         font-size: 160%;
     }
+
+    #cover-text {
+        width: 300px;
+    }
     
     #about-outer {
         width: 70%;
@@ -401,11 +406,6 @@ footer {
 /* For iPad/tablet sizes from 768px wide and down */
 @media screen and (max-width: 768px) {
 
-    #about-text h2 {
-        line-height: 40px;
-
-    }
-
     #logo {
         margin-bottom: 0;
     }
@@ -442,12 +442,17 @@ footer {
     
     #cover-text {
         padding: 10px;
-        width: 300px;
         height: auto;
-        position: absolute;
-        left: 0px;
-        bottom: 50px;
-    }   
+        left: 0;
+        right: 0;
+        bottom: 5%;
+        margin: auto;
+    }  
+    
+    #about-text h2 {
+        line-height: 40px;
+
+    }
     
     .yoga-silhouttes {
     height: 150px;
@@ -466,6 +471,13 @@ footer {
 
 /* For mobile device sizes from 480px wide and down */
 @media screen and (max-width: 480px) {
+
+    #cover-text {
+        left: 0;
+        right: 0;
+        bottom: 5%;
+        margin: auto;
+    } 
 
     #pose-links div {
         clear: both;
