@@ -27,6 +27,7 @@ header {
     width: 100%;
     background-color: white;
     z-index: 3;
+    box-shadow: 0 -20px 30px #000;
 }
 
 h1, h2 {
@@ -38,7 +39,7 @@ h1, h2 {
 #logo {
     float: left;
     font-size: 200%;
-    margin-left: 20px;
+    margin: 0 0 0 20px;
     text-transform: uppercase;
 }
 
@@ -52,6 +53,7 @@ h1, h2 {
 }
 
 #menu ul {
+    margin: 0;
     float: right;
 }
 
@@ -120,8 +122,7 @@ h1, h2 {
     height: 600px;
     width: 100%;
     overflow: hidden;
-    margin-top: 120px;
-    
+    margin-top: 75px;    
 }
 
 #hero-image {
