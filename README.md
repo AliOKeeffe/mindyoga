@@ -4,11 +4,26 @@ Mind Yoga is a website that aims to teach users specific yoga poses to improve t
 
 Mind Yoga includes step by step instructions for each specific pose along with images and a description of the benefits for each emotional state. Users who wish attend a yoga class can use the Google Maps section to find a class in their local area (DO I NEED TO SAY WHERE?). The site also includes a form section for users who wish to contribute their own suggested yoga poses.
 
+The live link can be found here - [Mind Yoga](https://aliokeeffe.github.io/mindyoga/)
+
+INSERT SCREENSHOT OF RESPONSINATOR 
+
+## Site Owner Goals 
+- To provide the user with information about the benefits of yoga with a particular focus on mental wellbeing. 
+- To provide the user with clear and conscise instructions as to how to complete each pose along with a demonstrative image and a description of the emotional benefits
+- To present the user with a website that is easy to navigate, fully responsive and invokes a sense of calm using colours and imagery. 
+- To enable the user to locate yoga studios in their local area if they wish to continue their practice.
+- To allow users to contribute their suggested yoga poses and sign up to the Mind Yoga Newsletter. 
+
+
+
 Mind Yoga is designed to invoke a postive emotional experience and a sense of calm in the user. The site is responsive and accessible on a range of devices.
 
 
-The live link can be found here - [Mind Yoga](https://aliokeeffe.github.io/mindyoga/)
-
+## User Stories
+- ## First time visitor
+    - As a first time user I want to
+- ## Returning visitor 
 
 
 ## Features
@@ -51,6 +66,10 @@ The live link can be found here - [Mind Yoga](https://aliokeeffe.github.io/mindy
 
 ## Testing
 
+Testing was done on a continuous basis using the live preview on Gitpod coupled with developer tools on the chrome browser.
+Additional testing was done by submitting code for peer-to-peer review on THE Code Institute Slack channel
+
+
 ## Validator Testing
 - ### HTML
     - No errors were returned when passing through the official W3C Validator (INSERT LINK)
@@ -68,7 +87,7 @@ The live link can be found here - [Mind Yoga](https://aliokeeffe.github.io/mindy
 ## Links and Button Testing
 - Logo links to home-page this was tested manually from each page of the website.
 
-Navigation Menu links – Home, Lamps, Wall Art, Garden & Contact were all individually manually tested from each page of the website to ensure the user is directed to the correct page.
+Navigation Menu links –  were all individually manually tested from each page of the website to ensure the user is directed to the correct page.
 
 Buttons used on home page for mobile devices were tested manually to ensure they direct the user to the correct gallery page.
 
@@ -76,9 +95,7 @@ Contact Us buttons used at the bottom of each page were tested manually to ensur
 
 Get in touch text links were tested manually to ensure they direct the user to the contact page.
 
-Social Media links in the footer of each page were tested manually to ensure they direct the user to the correct page. As currently the business does not have any active social media sites these links point to the main page for each platform eg. facebook.com etc.
-
-Tested carousel controls left and right to ensure they moved the carousel along in the correct direction and that the captions also changed with the images.
+Social Media links in the footer of each page were tested manually to ensure they direct the user to the correct page. 
 
 Tested clicking on each thumbnail to ensure it opens in it’s own tab.
 
@@ -98,7 +115,11 @@ Friends and family members were asked to review the site and documentation to po
 
 
 
-### Fixed Bugs
+## Fixed Bugs
+- ### Fixed Header Anchor Link Navigation 
+    - When I created a fixed position header nav bar and clicked on the 
+
+
 
 ### Unfixed Bugs
 There are no unfixed bugs
