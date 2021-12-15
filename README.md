@@ -2,9 +2,9 @@
 
 Mind Yoga is a website that aims to teach users specific yoga poses to improve their mental wellbeing. The site is intended for users who wish to practice yoga in order to release difficult emotions such as stress, anxiety, trauma and grief. 
 
-Mind Yoga includes step by step instructions for each specific pose along with images and a description of the benefits for each emotional state. Users who wish attend a yoga class can use the Google Maps section to find a class in their local area (DO I NEED TO SAY WHERE?).
+Mind Yoga includes step by step instructions for each specific pose along with images and a description of the benefits for each emotional state. Users who wish attend a yoga class can use the Google Maps section to find a class in their local area (DO I NEED TO SAY WHERE?). The site also includes a form section for users who wish to contribute their own suggested yoga poses.
 
-The site also includes a form section for users who wish to contribute their own suggested poses.
+Mind Yoga is designed to invoke a postive emotional experience and a sense of calm in the user. The site is responsive and accessible on a range of devices.
 
 
 The live link can be found here - [Mind Yoga](https://aliokeeffe.github.io/mindyoga/)
@@ -29,32 +29,79 @@ The live link can be found here - [Mind Yoga](https://aliokeeffe.github.io/mindy
 
 - ### Poses Section
     - This section contains four yoga poses with each pose linked to a different difficult emotion. 
-    - The user is provided with step by step instructions as to how to complete each pose along with a demonstrative image and a description of the emotional benefits. 
+    - This section is valuable as the user is provided with step by step instructions as to how to complete each pose along with a demonstrative image and a description of the emotional benefits. 
 
 - ### Practice Section
     - The Practice Section includes an iframe with an embedded Google Map showing the locations of yoga studios around Dublin.
     - This section will enable the user find a yoga studio within their locality should they wish to attend a class.
 
 - ### Contribute Section
-    - The contribute section allows the user to sign up
+    - The contribute section includes a background video of ocean waves with a form overlay.
+    - The user is invited to sign up to Mind Yoga to contribute their suggested Yoga pose and they can also opt in to receive the Mind Yoga Newsletter.
+    - The user can input their full name, email address and yoga pose suggestion. They can select the checkbox if they wish to receive the newsletter.
 
 - ### Footer
+    - The footer section includes links to Mind Yoga's Facebook, Instagram, Twitter and Youtube pages.
+    - The links will open to a new tab to allow easy navigation for the user. 
+    - The footer is valuable to the user as it allows them to find and follow Mind Yoga on social media
 
 
-
-### Existing Features
 ### Features Left to Implement
+- Burger button for the mobile nav bar.
 
 ## Testing
-Different browers
-Different Screen Sizes
 
-### Validator Testing
-HTMl Validator
-CSS Validator
-Accessibility - Lighthouse (include screenshot)
-#### Fixed Bugs
-#### Unfixed Bugs
+## Validator Testing
+- ### HTML
+    - No errors were returned when passing through the official W3C Validator (INSERT LINK)
+- ### CSS
+    - No errors were found when passing through the official Jigsaw Validator (INSERT LINK)
+- ### Accessibility 
+    - The site acheived a Lighthouse accessibility score of XX which confirms that the colours and fonts chosen are easy to read and accessible (INCLUDE SCREENSHOT)
+
+## Form Testing
+- The form has been tested to ensure the form would not submit without the required input fields being filled in (full name and email address).
+
+
+- Tested submitting the form without one of each of the required fields and the form will not submit without all required fields filled in.
+
+## Links and Button Testing
+- Logo links to home-page this was tested manually from each page of the website.
+
+Navigation Menu links – Home, Lamps, Wall Art, Garden & Contact were all individually manually tested from each page of the website to ensure the user is directed to the correct page.
+
+Buttons used on home page for mobile devices were tested manually to ensure they direct the user to the correct gallery page.
+
+Contact Us buttons used at the bottom of each page were tested manually to ensure they direct the user to the contact page.
+
+Get in touch text links were tested manually to ensure they direct the user to the contact page.
+
+Social Media links in the footer of each page were tested manually to ensure they direct the user to the correct page. As currently the business does not have any active social media sites these links point to the main page for each platform eg. facebook.com etc.
+
+Tested carousel controls left and right to ensure they moved the carousel along in the correct direction and that the captions also changed with the images.
+
+Tested clicking on each thumbnail to ensure it opens in it’s own tab.
+
+
+## Browser Testing
+- The Website was tested on Google Chrome, Internet Explorer, Firefox, Microsoft Edge, Safari browsers.
+    
+## Device Testing
+- The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX. (ADD IN THE REST)
+
+
+## Friends and Family User Testing
+Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
+
+
+
+
+
+
+### Fixed Bugs
+
+### Unfixed Bugs
+There are no unfixed bugs
 
 ## Technologies Used
 ## Deployment
@@ -64,3 +111,23 @@ Accessibility - Lighthouse (include screenshot)
 ### Media
 google maps
 ### Code
+
+## Design
+Colour Scheme
+The two main colours used are green and white.
+Typography
+The Montserrat font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Montserrat is a clean font used frequently in programming, so it is both attractive and appropriate.
+Imagery
+Imagery is important. The large, background hero image is designed to be striking and catch the user's attention. It also has a modern, energetic aesthetic.
+
+## Wireframes
+Home Page Wireframe - View
+
+
+intuitive, simple, enjoyable to use
+positive user experience
+does it fit my needs
+positive emotional response
+product must be valuable
+user must want to return
+can a user understand and comfortably navigative through the site upon seeing it for the first time.
