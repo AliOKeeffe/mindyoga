@@ -15,15 +15,21 @@ INSERT SCREENSHOT OF RESPONSINATOR
 - To enable the user to locate yoga studios in their local area if they wish to continue their practice.
 - To allow users to contribute their suggested yoga poses and sign up to the Mind Yoga Newsletter. 
 
-
-
-Mind Yoga is designed to invoke a postive emotional experience and a sense of calm in the user. The site is responsive and accessible on a range of devices.
-
-
 ## User Stories
-- ## First time visitor
-    - As a first time user I want to
-- ## Returning visitor 
+- ## First time user
+    - As a first time user I want learn about the benefits of yoga for my mental health.
+    - As a first time user I want easily navigate to a yoga pose which matches my emotional state.  
+    - As a first time user I want to find step by step instructions in order to complete the pose and to read about the emotional benefits.
+    - As a first time user I want to be able to intuitively navigate the website and have a positive emotional experience. 
+    
+
+- ## Returning User
+  - As a returning user I want to be able to contribute my suggested yoga poses to further benefit other users.
+  - As a returning user I want to be able to find yoga studios in my locality to further my practice.
+
+- ## Frequent User
+  - As a frequent user I want to be able to sign-up to the Mind Yoga newsletter in order to get updates about new poses add to the website
+
 
 
 ## Features
@@ -63,11 +69,18 @@ Mind Yoga is designed to invoke a postive emotional experience and a sense of ca
 
 ### Features Left to Implement
 - Burger button for the mobile nav bar.
+- The ability to search by emotion as the bank of poses grows
+
+## Design and Layout
+## Colours, Fonts and Imagery
+## Wireframes
+
 
 ## Testing
 
-Testing was done on a continuous basis using the live preview on Gitpod coupled with developer tools on the chrome browser.
-Additional testing was done by submitting code for peer-to-peer review on THE Code Institute Slack channel
+Testing was done on a continuous basis using the live preview on Gitpod in addition to developer tools on the Chrome browser.
+
+Additional testing was done by submitting code for peer-to-peer review on The Code Institute Slack channel
 
 
 ## Validator Testing
@@ -79,25 +92,11 @@ Additional testing was done by submitting code for peer-to-peer review on THE Co
     - The site acheived a Lighthouse accessibility score of XX which confirms that the colours and fonts chosen are easy to read and accessible (INCLUDE SCREENSHOT)
 
 ## Form Testing
-- The form has been tested to ensure the form would not submit without the required input fields being filled in (full name and email address).
+- The form has been tested to ensure it would not submit without the required input fields being filled in (full name and email address).
 
-
-- Tested submitting the form without one of each of the required fields and the form will not submit without all required fields filled in.
-
-## Links and Button Testing
-- Logo links to home-page this was tested manually from each page of the website.
-
-Navigation Menu links –  were all individually manually tested from each page of the website to ensure the user is directed to the correct page.
-
-Buttons used on home page for mobile devices were tested manually to ensure they direct the user to the correct gallery page.
-
-Contact Us buttons used at the bottom of each page were tested manually to ensure they direct the user to the contact page.
-
-Get in touch text links were tested manually to ensure they direct the user to the contact page.
-
-Social Media links in the footer of each page were tested manually to ensure they direct the user to the correct page. 
-
-Tested clicking on each thumbnail to ensure it opens in it’s own tab.
+## Links Testing
+- All navigation links were tested manually to ensure the user is directed to the correct section of the website.
+- Social Media links in the footer of each page were tested manually to ensure they direct the user to the correct page and open in a new tab. 
 
 
 ## Browser Testing
@@ -106,18 +105,25 @@ Tested clicking on each thumbnail to ensure it opens in it’s own tab.
 ## Device Testing
 - The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX. (ADD IN THE REST)
 
-
 ## Friends and Family User Testing
 Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
-
-
-
-
-
 ## Fixed Bugs
-- ### Fixed Header Anchor Link Navigation 
-    - When I created a fixed position header nav bar and clicked on the 
+### Anchor link scroll with a fixed position header
+The header element contains anchor links to allow the user to navigate to different sections within the website. By default, these will scroll so that the target element is flush with the top of the browser window.
+
+When I then updated the header to use a fixed top position, the beginning of each section ended up being covered by the header, which wasn’t ideal.
+
+To resolve this I created span elements at the top of each section and applied a negative top margin that matched the height of the header. This way, when the user clicks on a nav link, the browser window scrolls to the top of the corresponding session. 
+
+### Using padding on elements with 100% width / CSS Box Model
+When I first implemented my section elements I set them to use a width of 100%. When I later added content to some of these, I applied padding to create more space for the text and images. 
+
+I did not expect the padding to be added to the width of the content box of the Section and didn’t understand why the Sections with added padding rendered at a different size to those that did not. 
+
+I read up a bit more about the CSS Box Model and then implemented a new Div element with no defined width inside of the relevant Section elements, on which I was able to apply the required padding, while ensuring that the width of 100% was applied to all Section elements consistently.
+
+### Centering the cover text when it’s positioning is absolute
 
 
 
