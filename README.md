@@ -30,6 +30,19 @@ INSERT SCREENSHOT OF RESPONSINATOR
 - ## Frequent User
   - As a frequent user I want to be able to sign-up to the Mind Yoga newsletter in order to get updates about new poses add to the website
 
+## Design
+
+### Colours
+The two main colours used are green and white.
+
+### Fonts
+The Montserrat font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Montserrat is a clean font used frequently in programming, so it is both attractive and appropriate.
+
+### Imagery
+The imagery used on the Mind Yoga site is very important to the overall experience of the user. A nature theme is consistantly used across all imagery with lots of green foliage forest scenes.  grounding in nature and invoke a sense of calm in the user. The colour green is also imporant as this ties into the overall colour scheme of the site. 
+
+## Colours, Fonts and Imagery
+## Wireframes
 
 
 ## Features
@@ -71,9 +84,6 @@ INSERT SCREENSHOT OF RESPONSINATOR
 - Burger button for the mobile nav bar.
 - The ability to search by emotion as the bank of poses grows
 
-## Design and Layout
-## Colours, Fonts and Imagery
-## Wireframes
 
 
 ## Testing
@@ -139,13 +149,7 @@ There are no unfixed bugs
 google maps
 ### Code
 
-## Design
-Colour Scheme
-The two main colours used are green and white.
-Typography
-The Montserrat font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Montserrat is a clean font used frequently in programming, so it is both attractive and appropriate.
-Imagery
-Imagery is important. The large, background hero image is designed to be striking and catch the user's attention. It also has a modern, energetic aesthetic.
+
 
 ## Wireframes
 Home Page Wireframe - View
