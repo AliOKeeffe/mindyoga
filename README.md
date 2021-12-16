@@ -32,18 +32,18 @@ INSERT SCREENSHOT OF RESPONSINATOR
 
 ## Design
 
+### Imagery
+The imagery used on the Mind Yoga site is very important to the overall experience of the user. A nature theme is consistantly used across all imagery with lots of green foliage and forest scenes. This gives the sense of grounding in nature which has great benefits for mental health and is intended to invoke a sense of calm in the user. The colour green is also important as this ties into the main colour scheme of the site. 
+
 ### Colours
-The two main colours used are green and white.
+The colour scheme of the website is white and green with varying shades of green used to tie in with the nature imagery. A dark grey font is used which has a good contrast with the light green and white backgrounds making it easy to read. 
 
 ### Fonts
-The Montserrat font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Montserrat is a clean font used frequently in programming, so it is both attractive and appropriate.
+The Montserrat font is the main font used throughout the whole website with Sans Serif as the backup font in case for any reason the font isn't being imported into the site correctly. 
 
-### Imagery
-The imagery used on the Mind Yoga site is very important to the overall experience of the user. A nature theme is consistantly used across all imagery with lots of green foliage forest scenes.  grounding in nature and invoke a sense of calm in the user. The colour green is also imporant as this ties into the overall colour scheme of the site. 
 
-## Colours, Fonts and Imagery
 ## Wireframes
-
+Wireframes were produced using Balsamiq. 
 
 ## Features
 - ### Navigation
@@ -51,6 +51,7 @@ The imagery used on the Mind Yoga site is very important to the overall experien
     - The fully responsive navigation bar includes links to the Logo, Home, About, Poses, Practice and Contribute sections of the same page.
     - The Poses navigation link includes a drop down menu which includes further links to each emotional state within the Poses section.
     - The navigation bar has a fixed position so that is remains visible at the top of the page as the user navigates through the individual sections. 
+    - A drop shadow was applied to the navigation bar to make sure that it doesn't blend into the other sections of the page upon scrolling.
     - This section allows the user to easliy navigative through the site to find content without have to scroll back up to top of the page or use the browser back button.
 
 ![Nav bar image](assets/READMEimages/Navbar.png)
@@ -123,7 +124,6 @@ Additional testing was done by submitting code for peer-to-peer review on The Co
 - All navigation links were tested manually to ensure the user is directed to the correct section of the website.
 - Social Media links in the footer of each page were tested manually to ensure they direct the user to the correct page and open in a new tab. 
 
-
 ## Browser Testing
 - The Website was tested on Google Chrome, Internet Explorer, Firefox, Microsoft Edge, Safari browsers.
     
@@ -135,18 +135,14 @@ Friends and family members were asked to review the site and documentation to po
 
 ## Fixed Bugs
 ### Anchor link scroll with a fixed position header
-The header element contains anchor links to allow the user to navigate to different sections within the website. By default, these will scroll so that the target element is flush with the top of the browser window.
-
-When I then updated the header to use a fixed top position, the beginning of each section ended up being covered by the header, which wasn’t ideal.
-
-To resolve this I created span elements at the top of each section and applied a negative top margin that matched the height of the header. This way, when the user clicks on a nav link, the browser window scrolls to the top of the corresponding session. 
+- The header element contains anchor links to allow the user to navigate to different sections within the website. By default, these will scroll so that the target element is flush with the top of the browser window.
+- When I updated the header to use a fixed top position, the beginning of each section ended up being covered by the header, which wasn’t ideal.
+- To resolve this I created span elements at the top of each section and applied a negative top margin that matched the height of the header. This way, when the user clicks on a nav link, the browser window scrolls to the top of the corresponding session. 
 
 ### Using padding on elements with 100% width / CSS Box Model
-When I first implemented my section elements I set them to use a width of 100%. When I later added content to some of these, I applied padding to create more space for the text and images. 
-
-I did not expect the padding to be added to the width of the content box of the Section and didn’t understand why the Sections with added padding rendered at a different size to those that did not. 
-
-I read up a bit more about the CSS Box Model and then implemented a new Div element with no defined width inside of the relevant Section elements, on which I was able to apply the required padding, while ensuring that the width of 100% was applied to all Section elements consistently.
+- When I first implemented my section elements I set them to use a width of 100%. When I later added content to some of these, I applied padding to create more space for the text and images. 
+- I did not expect the padding to be added to the width of the content box of the Section and didn’t understand why the Sections with added padding rendered at a different size to those that did not. 
+- I read up a bit more about the CSS Box Model and then implemented a new Div element with no defined width inside of the relevant Section elements, on which I was able to apply the required padding, while ensuring that the width of 100% was applied to all Section elements consistently.
 
 ### Centering the cover text when it’s positioning is absolute
 
@@ -158,16 +154,28 @@ There are no unfixed bugs
 ## Technologies Used
 ## Deployment
 
+The project was deployed using GitHub pages. The steps to deploy using GitHub pages are:
+
+1. Go to the repository on GitHub.com
+2. Select 'Settings' near the top of the page.
+3. Select 'Pages' from the menubar on the left of the page.
+4. Under 'Source' select the 'Branch' dropdown menu and select the main branch.
+5. Once selected, click the 'Save'.
+6. Deployment should be confirmed by a message on a green background saying "Your site is published at" followed by the web address.
+
+The live link can be found here - [Mind Yoga](https://aliokeeffe.github.io/mindyoga/)
+
 ## Credits
+
 ### Content
+
+
 ### Media
 google maps
 ### Code
 
 
 
-## Wireframes
-Home Page Wireframe - View
 
 
 intuitive, simple, enjoyable to use

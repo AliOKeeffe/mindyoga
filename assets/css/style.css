@@ -109,18 +109,6 @@ h3{
       display: block;
     }
   
-
-/* #menu a:active {
-    background-color: rgba(194, 214, 206, 0.5);
-    border-radius: 5px;
-}
-
-/* .active {
-    background-color: rgba(194, 214, 206, 0.5);
-    border-radius: 5px;
-} */
-
-
 /* hero-image and cover text*/
 
 #hero-outer {
@@ -154,7 +142,6 @@ h3{
     position: absolute;
     right: 50px;
     bottom: 300px;
-    
 }
 
 /* About Section */
