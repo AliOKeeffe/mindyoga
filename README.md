@@ -47,38 +47,53 @@ The imagery used on the Mind Yoga site is very important to the overall experien
 
 ## Features
 - ### Navigation
+
     - The fully responsive navigation bar includes links to the Logo, Home, About, Poses, Practice and Contribute sections of the same page.
     - The Poses navigation link includes a drop down menu which includes further links to each emotional state within the Poses section.
     - The navigation bar has a fixed position so that is remains visible at the top of the page as the user navigates through the individual sections. 
     - This section allows the user to easliy navigative through the site to find content without have to scroll back up to top of the page or use the browser back button.
 
+![Nav bar image](assets/READMEimages/Navbar.png)
+
 - ### The Landing Page Image
     - The landing page includes an eye catching image with text overlay describing the site's goal.
     - This section provides the user with a clear visual representation of the purpose of the site.
+
+![Landing page image](assets/READMEimages/Landingpage.png) 
 
 - ### About Section
     - The About Section gives a brief description of the benefits of yoga for mental wellbeing and also gives further details about what the site offers to users.
     - Below the about text there are four small images with navigation links to each emotional state within the Poses Section.
     - This section will show users the value of practicing yoga for their mental wellbeing and the image links invite the user to further explore the site as an alternative to the navigation bar. 
 
+![About section image](assets/READMEimages/Aboutsection.png) 
+
 - ### Poses Section
     - This section contains four yoga poses with each pose linked to a different difficult emotion. 
     - This section is valuable as the user is provided with step by step instructions as to how to complete each pose along with a demonstrative image and a description of the emotional benefits. 
 
+![Poses section image](assets/READMEimages/Posessection.png) 
+  
+
 - ### Practice Section
     - The Practice Section includes an iframe with an embedded Google Map showing the locations of yoga studios around Dublin.
     - This section will enable the user find a yoga studio within their locality should they wish to attend a class.
+
+![Maps section image](assets/READMEimages/Mapssection.png) 
 
 - ### Contribute Section
     - The contribute section includes a background video of ocean waves with a form overlay.
     - The user is invited to sign up to Mind Yoga to contribute their suggested Yoga pose and they can also opt in to receive the Mind Yoga Newsletter.
     - The user can input their full name, email address and yoga pose suggestion. They can select the checkbox if they wish to receive the newsletter.
 
+![Form section image](assets/READMEimages/Formsection.png) 
+
 - ### Footer
     - The footer section includes links to Mind Yoga's Facebook, Instagram, Twitter and Youtube pages.
     - The links will open to a new tab to allow easy navigation for the user. 
     - The footer is valuable to the user as it allows them to find and follow Mind Yoga on social media
 
+![Footer image](assets/READMEimages/Footer.png) 
 
 ### Features Left to Implement
 - Burger button for the mobile nav bar.
