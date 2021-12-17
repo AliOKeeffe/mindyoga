@@ -168,14 +168,35 @@ The live link can be found here - [Mind Yoga](https://aliokeeffe.github.io/mindy
 ## Credits
 
 ### Content
+All educational yoga content was sourced from the below websites:
+- [Yoga Journal](https://www.yogajournal.com)
+- [Amayaan](https://www.amayaan.com/)
+- [Ekhart Yoga](https://www.ekhartyoga.com)
+- [Mind Body Green](https://www.mindbodygreen.com)
+- [Class Pass](https://classpass.com)
+- [Art of Living](https://www.artofliving.org)
+
 
 
 ### Media
+All images and videos were sourced from the below websites with thanks to the below amazing photographers/videographers
+- [Pexels](https://www.pexels.com/)
+    - Enrrique Hoyos - Waves Video
+    - Anete Lusina - Tree Pose Image
+    - Daria Klimova - Staning Forward Fold Pose Image
+- [Unsplash](https://unsplash.com)
+    - Mikita Karasiou - Hero Image
+    - Tabitha Turner - Upward Facing Dog Pose Image
+    - Balu Gáspár - Childs Pose Image
+    - Tima Miroshnichenko - Yoga Silhouette
+- [PXhere](https://pxhere.com/)
+    - Mohamad Hassan - Yoga Silhouette
+    - Dave Contreras - Yoga Silhouette
+
 google maps
 ### Code
-
-
-
+Am I Responsive - Used to verify responsiveness of website on different devices.
+Balsamiq - Used to generate Wireframe images.
 
 
 intuitive, simple, enjoyable to use

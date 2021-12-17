@@ -101,10 +101,9 @@ h3{
   
   .dropdown-content a {
     display: block;
-    line-height: 30px;
-    
+    line-height: 30px;  
   }
-  
+
   .dropdown:hover .dropdown-content {
       display: block;
     }
@@ -298,9 +297,11 @@ video {
 #contribute-form {
     position: absolute;
     top: 5%;
-    right: 5%;
+    left: 0;
+    right: 0;
     bottom: 5%;
-    background-color: rgba(20, 42, 43, 0.8);
+    margin: auto;
+    background-color: rgb(20, 42, 43);
     max-width: 400px;
     padding: 20px;
     color: white;
@@ -483,11 +484,6 @@ footer {
     }
 
     #contribute-form {
-        top: 5%;
-        left: 0;
-        right: 0;
-        bottom: 5%;
-        margin: auto;
         max-width: 300px;
     }
 }
