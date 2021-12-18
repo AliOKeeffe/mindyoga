@@ -121,7 +121,7 @@ h3{
 #hero-image {
     width: 100%;
     height: 600px;
-    background: url(../images/Heroimage_s.webp) no-repeat center center;
+    background: url(../images/heroimage_s.webp) no-repeat center center;
     background-size: cover;
 }
 
@@ -197,8 +197,9 @@ h3{
 /* yoga poses section */
 
 .pose-content-wrapper {
-    width: 100%; 
+    max-width: 1200px; 
     padding: 20px 0;
+    margin: 0 auto;
 }
 
 .green-background {
@@ -223,18 +224,18 @@ h3{
 
 .content-image {
     text-align: center;
-    padding: 50px 0;
+    padding: 50px;
 }
 
 .content-text-right {
     text-align: justify;
-    padding: 50px 200px 50px 0;
+    padding: 50px;
     line-height: 25px;
 }
 
 .content-text-left {
     text-align: justify;
-    padding: 50px 0px 50px 200px;
+    padding: 50px;
     line-height: 25px;
 }
 
@@ -255,7 +256,7 @@ h3{
 
 .content-image img {
     height: 500px;
-    width: 350px;
+    width: 500px;
 }
 
 /* Maps Section */
@@ -520,7 +521,7 @@ footer {
 
     .content-image img {
         width: 300px;
-        height: 420px;
+        height: 300px;
     }
 
     .social-networks i {
