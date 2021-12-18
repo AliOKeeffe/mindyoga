@@ -37,6 +37,10 @@ h1, h2 {
     text-transform: uppercase;
 }
 
+h2 {
+    margin: 30px 0;
+}
+
 h3{
     text-transform: uppercase;
 }
@@ -74,7 +78,7 @@ h3{
 }
 
 #menu a:hover {
-    background-color: rgba(194, 214, 206, 0.5);
+    background-color: #e1eae7;
     border-radius: 5px;
 }
 
@@ -125,34 +129,35 @@ h3{
     background-size: cover;
 }
 
-#cover-text h2 {
-    color: white;
-    font-size: 180%;
-}
 
 #cover-text {
-    padding: 10px;
-    width: 400px;
-    height: auto;
-    background-color: rgba(44, 65, 56, 0.5);
-   
-    text-align: center;
-
     position: absolute;
     right: 50px;
     bottom: 300px;
+    
+    width: 400px;
+    height: auto;
+    padding: 40px 10px;
+
+    color: white;
+    background-color: rgba(44, 65, 56, 0.5);    
+    font-size: 28px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 4px;
 }
 
 /* About Section */
 
 #about-outer {
-    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
     padding: 20px 0;
 }
 
 #about-text {
     text-align: center;
-    width: 70%;
     display: block;
     margin: 0 auto;
     line-height: 30px;
@@ -176,21 +181,21 @@ h3{
     margin: 0 auto;
 }
 
-#pose-links h4 {
+#pose-links h3 {
     text-align: center;
     font-size: 110%;
     letter-spacing: 3px;
     text-transform: uppercase;
 }
 
-#pose-links h4 a {
+#pose-links h3 a {
     color: inherit;
     padding: 10px;
     text-decoration: none;
 }
 
-#pose-links h4 a:hover {
-    background-color: rgba(194, 214, 206, 0.5);
+#pose-links h3 a:hover {
+    background-color: #e1eae7;
     border-radius: 5px;
 }
 
@@ -203,7 +208,7 @@ h3{
 }
 
 .green-background {
-    background-color: rgba(194, 214, 206, 0.5);
+    background-color: #e1eae7;
 }
 
 #poses-header {
@@ -255,35 +260,30 @@ h3{
 }
 
 .content-image img {
-    height: 500px;
-    width: 500px;
+    height: 450px;
+    width: 450px;
 }
 
 /* Maps Section */
-
 #map-outer {
-    background-color: rgb(20, 42, 43);
-    padding: 20px 20px 40px 20px;
-    
+    padding: 40px 0 60px 0;
+    background-color: #142a2b;
 }
-
 #map-outer h2 {
     color: white;
     text-align: center;
 }
-
 #map-inner {
     width: 90%;
     margin: 0 auto;
 }
-
 iframe {
     width: 100%;
     height: 450px;
     border: 0;
 }
-/* Form Section */
 
+/* Form Section */
 #form-outer {
     width: 100%;
     position: relative;
@@ -302,7 +302,7 @@ video {
     right: 0;
     bottom: 5%;
     margin: auto;
-    background-color: rgb(20, 42, 43);
+    background-color: #142a2b;
     max-width: 400px;
     padding: 20px;
     color: white;
@@ -324,7 +324,6 @@ textarea {
     height: 100px;
 }
 
-
 #checkbox {
     border: 1px solid white;
     font-size: 14px;  
@@ -343,16 +342,12 @@ textarea {
 }
 
 .contribute-button:hover {
-        box-shadow: 0 12px 16px 0 rgba(245, 242, 242, 0.24), 0 17px 50px 0 rgba(216, 195, 195, 0.24);
-    }
-
-
-/* footer */
-
-footer {
-    height: 110px;
+    /* box-shadow: 0 12px 16px 0 rgba(245, 242, 242, 0.24), 0 17px 50px 0 rgba(216, 195, 195, 0.24); */
+    background-color: #e1eae7;
+    cursor: pointer;
 }
 
+/* footer */
 .social-networks {
     text-align: center;
     padding: 0;
@@ -367,6 +362,10 @@ footer {
     font-size: 160%;
     padding: 0 30px;
     color: #4b5054;
+}
+
+.social-networks i:hover {
+    color: #142a2b;
 }
 
 /* media queries */
@@ -411,6 +410,11 @@ footer {
 
     .content-image {
         padding: 50px 0 0 0;
+    }
+    
+    .content-image img {
+        width: 400px;
+        height: 400px;
     }
 
     .content-text-left, .content-text-right {
@@ -473,7 +477,7 @@ footer {
         right: 0;
         bottom: 5%;
         margin: auto;
-    }  
+    }
     
     #about-text h2 {
         line-height: 40px;
