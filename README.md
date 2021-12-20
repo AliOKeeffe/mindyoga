@@ -2,11 +2,11 @@
 
 Mind Yoga is a website that aims to teach users specific yoga poses to improve their mental wellbeing. The site is intended for users who wish to practice yoga in order to release difficult emotions such as stress, anxiety, trauma and grief. 
 
-Mind Yoga includes step by step instructions for each specific pose along with images and a description of the benefits for each emotional state. Users who wish attend a yoga class can use the Google Maps section to find a class in their local area (DO I NEED TO SAY WHERE?). The site also includes a form section for users who wish to contribute their own suggested yoga poses.
+Mind Yoga includes step by step instructions for each specific pose along with images and a description of the benefits for each emotional state. Users who wish attend a yoga class can use the Google Maps section to find a class in their local area. The site also includes a form section for users who wish to contribute their own suggested yoga poses.
 
 The live link can be found here - [Mind Yoga](https://aliokeeffe.github.io/mindyoga/)
 
-INSERT SCREENSHOT OF RESPONSINATOR 
+INSERT SCREENSHOT OF AM I RESPONSIVE
 
 ## Site Owner Goals 
 - To provide the user with information about the benefits of yoga with a particular focus on mental wellbeing. 
@@ -54,104 +54,97 @@ Wireframes were produced using Balsamiq.
     - A drop shadow was applied to the navigation bar to make sure that it doesn't blend into the other sections of the page upon scrolling.
     - This section allows the user to easliy navigative through the site to find content without have to scroll back up to top of the page or use the browser back button.
 
-![Nav bar image](assets/READMEimages/Navbar.png)
+![Nav bar image](docs/readme_images/nav-bar.png)
 
 - ### The Landing Page Image
     - The landing page includes an eye catching image with text overlay describing the site's goal.
     - This section provides the user with a clear visual representation of the purpose of the site.
 
-![Landing page image](assets/READMEimages/Landingpage.png) 
+![Landing page image](docs/readme_images/landing-page.png) 
 
 - ### About Section
     - The About Section gives a brief description of the benefits of yoga for mental wellbeing and also gives further details about what the site offers to users.
     - Below the about text there are four small images with navigation links to each emotional state within the Poses Section.
     - This section will show users the value of practicing yoga for their mental wellbeing and the image links invite the user to further explore the site as an alternative to the navigation bar. 
 
-![About section image](assets/READMEimages/Aboutsection.png) 
+![About section image](docs/readme_images/about-section.png)
 
 - ### Poses Section
     - This section contains four yoga poses with each pose linked to a different difficult emotion. 
     - This section is valuable as the user is provided with step by step instructions as to how to complete each pose along with a demonstrative image and a description of the emotional benefits. 
 
-![Poses section image](assets/READMEimages/Posessection.png) 
+![Poses section image](docs/readme_images/poses-section.png)
   
 
 - ### Practice Section
     - The Practice Section includes an iframe with an embedded Google Map showing the locations of yoga studios around Dublin.
     - This section will enable the user find a yoga studio within their locality should they wish to attend a class.
 
-![Maps section image](assets/READMEimages/Mapssection.png) 
+![Maps section image](docs/readme_images/maps-section.png)
 
 - ### Contribute Section
     - The contribute section includes a background video of ocean waves with a form overlay.
     - The user is invited to sign up to Mind Yoga to contribute their suggested Yoga pose and they can also opt in to receive the Mind Yoga Newsletter.
     - The user can input their full name, email address and yoga pose suggestion. They can select the checkbox if they wish to receive the newsletter.
 
-![Form section image](assets/READMEimages/Formsection.png) 
+![Form section image](docs/readme_images/form-section.png) 
 
 - ### Footer
     - The footer section includes links to Mind Yoga's Facebook, Instagram, Twitter and Youtube pages.
     - The links will open to a new tab to allow easy navigation for the user. 
     - The footer is valuable to the user as it allows them to find and follow Mind Yoga on social media
 
-![Footer image](assets/READMEimages/Footer.png) 
+![Footer image](docs/readme_images/footer.png)
 
 ### Features Left to Implement
 - Burger button for the mobile nav bar.
 - The ability to search by emotion as the bank of poses grows
 
-
-
 ## Testing
 
-Testing was done on a continuous basis using the live preview on Gitpod in addition to developer tools on the Chrome browser.
-
-Additional testing was done by submitting code for peer-to-peer review on The Code Institute Slack channel
-
-
-## Validator Testing
-- ### HTML
+### Validator Testing
+- #### HTML
     - No errors were returned when passing through the official W3C Validator (INSERT LINK)
-- ### CSS
+- ###3 CSS
     - No errors were found when passing through the official Jigsaw Validator (INSERT LINK)
-- ### Accessibility 
+- #### Accessibility 
     - The site acheived a Lighthouse accessibility score of XX which confirms that the colours and fonts chosen are easy to read and accessible (INCLUDE SCREENSHOT)
 
-## Form Testing
+### Form Testing
 - The form has been tested to ensure it would not submit without the required input fields being filled in (full name and email address).
 
-## Links Testing
+### Links Testing
 - All navigation links were tested manually to ensure the user is directed to the correct section of the website.
 - Social Media links in the footer of each page were tested manually to ensure they direct the user to the correct page and open in a new tab. 
 
-## Browser Testing
+### Browser Testing
 - The Website was tested on Google Chrome, Internet Explorer, Firefox, Microsoft Edge, Safari browsers.
     
-## Device Testing
+### Device Testing
 - The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX. (ADD IN THE REST)
 
-## Friends and Family User Testing
+### Friends and Family User Testing
 Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
-## Fixed Bugs
-### Anchor link scroll with a fixed position header
+### Fixed Bugs
+#### Anchor link scroll with a fixed position header
 - The header element contains anchor links to allow the user to navigate to different sections within the website. By default, these will scroll so that the target element is flush with the top of the browser window.
 - When I updated the header to use a fixed top position, the beginning of each section ended up being covered by the header, which wasn’t ideal.
 - To resolve this I created span elements at the top of each section and applied a negative top margin that matched the height of the header. This way, when the user clicks on a nav link, the browser window scrolls to the top of the corresponding session. 
 
-### Using padding on elements with 100% width / CSS Box Model
+#### Using padding on elements with 100% width / CSS Box Model
 - When I first implemented my section elements I set them to use a width of 100%. When I later added content to some of these, I applied padding to create more space for the text and images. 
 - I did not expect the padding to be added to the width of the content box of the Section and didn’t understand why the Sections with added padding rendered at a different size to those that did not. 
 - I read up a bit more about the CSS Box Model and then implemented a new Div element with no defined width inside of the relevant Section elements, on which I was able to apply the required padding, while ensuring that the width of 100% was applied to all Section elements consistently.
 
-### Centering the cover text when it’s positioning is absolute
+#### Centering the cover text when it’s positioning is absolute
 
 
 
 ### Unfixed Bugs
 There are no unfixed bugs
 
-## Technologies Used
+
 ## Deployment
 
 The project was deployed using GitHub pages. The steps to deploy using GitHub pages are:
@@ -193,16 +186,14 @@ All images and videos were sourced from the below websites with thanks to the be
     - Mohamad Hassan - Yoga Silhouette
     - Dave Contreras - Yoga Silhouette
 
-google maps
-### Code
-Am I Responsive - Used to verify responsiveness of website on different devices.
-Balsamiq - Used to generate Wireframe images.
 
+### Technologies used
 
-intuitive, simple, enjoyable to use
-positive user experience
-does it fit my needs
-positive emotional response
-product must be valuable
-user must want to return
-can a user understand and comfortably navigative through the site upon seeing it for the first time.
+- [Am I Responsive](http://ami.responsivedesign.is/) - Used to verify responsiveness of website on different devices.
+- [Balsamiq](https://balsamiq.com/) - Used to generate Wireframe images.
+- [Chrome Dev Tools](https://developer.chrome.com/docs/devtools/) - Used for overall development and tweaking, including testing responsiveness and performance.
+- [Font Awesome](https://fontawesome.com/) - Used for Social Media icons in footer.
+- [GitHub](https://github.com/) - Used for version control and hosting.
+- [Google Fonts](https://fonts.google.com/) - Used to import and alter fonts on the page.
+- [TinyPNG](https://tinypng.com/) - Used to compress images to reduce filesize without a reduction in quality.
+- [W3C](https://www.w3.org/) - Used for HTML & CSS Validation.
