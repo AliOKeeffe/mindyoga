@@ -448,6 +448,10 @@ textarea {
         font-size: 100%;
     }
     
+    .spacing-under-nav {
+        top: -85px;
+    }
+    
     #menu, #logo {
         line-height: 40px;
     }
