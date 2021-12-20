@@ -45,6 +45,11 @@ The Montserrat font is the main font used throughout the whole website with Sans
 ## Wireframes
 Wireframes were produced using Balsamiq. 
 
+![Laptop Wireframe](docs/wireframes/laptopwireframe.png)
+
+![Mobile Wireframe](docs/wireframes/mobilewireframe.png)
+
+
 ## Features
 - ### Navigation
 
@@ -133,20 +138,15 @@ Friends and family members were asked to review the site and documentation to po
 #### Anchor link scroll with a fixed position header
 - The header element contains anchor links to allow the user to navigate to different sections within the website. By default, these will scroll so that the target element is flush with the top of the browser window.
 - When I updated the header to use a fixed top position, the beginning of each section ended up being covered by the header, which wasn’t ideal.
-- To resolve this I created span elements at the top of each section and applied a negative top margin that matched the height of the header. This way, when the user clicks on a nav link, the browser window scrolls to the top of the corresponding session. 
+- To resolve this I created div elements at the top of each section and applied a relative position with a -75px top position (the same height as the header). This way, when the user clicks on a nav link, the browser window scrolls to the top of the corresponding section. 
 
 #### Using padding on elements with 100% width / CSS Box Model
 - When I first implemented my section elements I set them to use a width of 100%. When I later added content to some of these, I applied padding to create more space for the text and images. 
 - I did not expect the padding to be added to the width of the content box of the Section and didn’t understand why the Sections with added padding rendered at a different size to those that did not. 
 - I read up a bit more about the CSS Box Model and then implemented a new Div element with no defined width inside of the relevant Section elements, on which I was able to apply the required padding, while ensuring that the width of 100% was applied to all Section elements consistently.
 
-#### Centering the cover text when it’s positioning is absolute
-
-
-
 ### Unfixed Bugs
 There are no unfixed bugs
-
 
 ## Deployment
 
