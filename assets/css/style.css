@@ -133,19 +133,20 @@ h3{
 #cover-text {
     position: absolute;
     right: 50px;
-    bottom: 300px;
-    
+    bottom: 300px; 
     width: 400px;
     height: auto;
-    padding: 40px 10px;
+      
+}
 
+#cover-text h2 {
     color: white;
-    background-color: rgba(44, 65, 56, 0.5);    
+    background-color: rgba(44, 65, 56, 0.5); 
     font-size: 28px;
     font-weight: 700;
-    text-transform: uppercase;
     text-align: center;
-    letter-spacing: 4px;
+    padding: 40px 10px; 
+    margin: 0;
 }
 
 /* About Section */
@@ -172,7 +173,7 @@ h3{
     float: left;
 }
 
-.yoga-silhouttes {
+.yoga-silhouettes {
     height: 150px;
     width: 150px;
     border-radius: 50%;
@@ -342,7 +343,6 @@ textarea {
 }
 
 .contribute-button:hover {
-    /* box-shadow: 0 12px 16px 0 rgba(245, 242, 242, 0.24), 0 17px 50px 0 rgba(216, 195, 195, 0.24); */
     background-color: #e1eae7;
     cursor: pointer;
 }
@@ -483,7 +483,7 @@ textarea {
         line-height: 40px;
     }
     
-    .yoga-silhouttes {
+    .yoga-silhouettes {
     height: 150px;
     width: 150px;
     }

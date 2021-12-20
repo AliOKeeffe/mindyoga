@@ -105,10 +105,13 @@ Wireframes were produced using Balsamiq.
 ### Validator Testing
 - #### HTML
     - No errors were returned when passing through the official W3C Validator (INSERT LINK)
-- ###3 CSS
+- #### CSS
     - No errors were found when passing through the official Jigsaw Validator (INSERT LINK)
 - #### Accessibility 
-    - The site acheived a Lighthouse accessibility score of XX which confirms that the colours and fonts chosen are easy to read and accessible (INCLUDE SCREENSHOT)
+    - The site acheived a Lighthouse accessibility score of 100% which confirms that the colours and fonts chosen are easy to read and accessible
+
+![Lighthouse score](docs/readme_images/lighthouse_testing.png)
+
 
 ### Form Testing
 - The form has been tested to ensure it would not submit without the required input fields being filled in (full name and email address).
