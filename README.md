@@ -6,7 +6,7 @@ Mind Yoga includes step by step instructions for each specific pose along with i
 
 The live link can be found here - [Mind Yoga](https://aliokeeffe.github.io/mindyoga/)
 
-INSERT SCREENSHOT OF AM I RESPONSIVE
+![Mind Yoga Am I Responsive Image](docs/readme_images/am-i-responsive.png)
 
 ## Site Owner Goals 
 - To provide the user with information about the benefits of yoga with a particular focus on mental wellbeing. 
@@ -16,18 +16,18 @@ INSERT SCREENSHOT OF AM I RESPONSIVE
 - To allow users to contribute their suggested yoga poses and sign up to the Mind Yoga Newsletter. 
 
 ## User Stories
-- ## First time user
+- ### First time user
     - As a first time user I want learn about the benefits of yoga for my mental health.
     - As a first time user I want easily navigate to a yoga pose which matches my emotional state.  
     - As a first time user I want to find step by step instructions in order to complete the pose and to read about the emotional benefits.
     - As a first time user I want to be able to intuitively navigate the website and have a positive emotional experience. 
     
 
-- ## Returning User
+- ### Returning User
   - As a returning user I want to be able to contribute my suggested yoga poses to further benefit other users.
   - As a returning user I want to be able to find yoga studios in my locality to further my practice.
 
-- ## Frequent User
+- ### Frequent User
   - As a frequent user I want to be able to sign-up to the Mind Yoga newsletter in order to get updates about new poses add to the website
 
 ## Design
@@ -45,10 +45,18 @@ The Montserrat font is the main font used throughout the whole website with Sans
 ## Wireframes
 Wireframes were produced using Balsamiq. 
 
-![Laptop Wireframe](docs/wireframes/laptopwireframe.png)
+ <details>
+
+ <summary>Desktop Wireframe</summary>
+
+![Desktop Wireframe](docs/wireframes/desktopwireframe.png)
+ </details>
+
+ <details>
+    <summary>Mobile Wireframe</summary>
 
 ![Mobile Wireframe](docs/wireframes/mobilewireframe.png)
-
+ </details>
 
 ## Features
 - ### Navigation
@@ -129,7 +137,7 @@ Wireframes were produced using Balsamiq.
 - The Website was tested on Google Chrome, Internet Explorer, Firefox, Microsoft Edge, Safari browsers.
     
 ### Device Testing
-- The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX. (ADD IN THE REST)
+- The website was viewed on a variety of devices such as Desktop, Laptop, iPhone 8, iPhoneX and iPad to ensure responsiveness on various screen sizes. The website performed as intended. The responsive design was also checked using Chrome developer tools across multiple devices with structural integrity holding for the various sizes.
 
 ### Friends and Family User Testing
 Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
@@ -145,8 +153,8 @@ Friends and family members were asked to review the site and documentation to po
 - I did not expect the padding to be added to the width of the content box of the Section and didn’t understand why the Sections with added padding rendered at a different size to those that did not. 
 - I read up a bit more about the CSS Box Model and then implemented a new Div element with no defined width inside of the relevant Section elements, on which I was able to apply the required padding, while ensuring that the width of 100% was applied to all Section elements consistently.
 
-### Unfixed Bugs
-There are no unfixed bugs
+### Known Bugs
+HTML smooth scroll does not work on mobile devices or Safari browser.
 
 ## Deployment
 
@@ -172,8 +180,6 @@ All educational yoga content was sourced from the below websites:
 - [Class Pass](https://classpass.com)
 - [Art of Living](https://www.artofliving.org)
 
-
-
 ### Media
 All images and videos were sourced from the below websites with thanks to the below amazing photographers/videographers
 - [Pexels](https://www.pexels.com/)
@@ -189,7 +195,6 @@ All images and videos were sourced from the below websites with thanks to the be
     - Mohamad Hassan - Yoga Silhouette
     - Dave Contreras - Yoga Silhouette
 
-
 ### Technologies used
 
 - [Am I Responsive](http://ami.responsivedesign.is/) - Used to verify responsiveness of website on different devices.
@@ -200,3 +205,8 @@ All images and videos were sourced from the below websites with thanks to the be
 - [Google Fonts](https://fonts.google.com/) - Used to import and alter fonts on the page.
 - [TinyPNG](https://tinypng.com/) - Used to compress images to reduce filesize without a reduction in quality.
 - [W3C](https://www.w3.org/) - Used for HTML & CSS Validation.
+
+## Acknowledgments
+My mentor for their support and advice.
+
+The Code Institute slack community for their quick responses and very helpful feedback.
