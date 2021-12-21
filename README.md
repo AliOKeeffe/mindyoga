@@ -9,27 +9,26 @@ The live link can be found here - [Mind Yoga](https://aliokeeffe.github.io/mindy
 ![Mind Yoga Am I Responsive Image](docs/readme_images/am-i-responsive.png)
 
 ## Site Owner Goals 
-- To provide the user with information about the benefits of yoga with a particular focus on mental wellbeing. 
-- To provide the user with clear and concise instructions as to how to complete each pose along with a demonstrative image and a description of the emotional benefits
-- To present the user with a website that is easy to navigate, fully responsive and invokes a sense of calm using colours and imagery. 
+- To provide the user with information about the benefits of yoga, with a particular focus on mental wellbeing. 
+- To provide the user with clear and concise instructions as to how to complete each pose along with a demonstrative image and a description of the emotional benefits.
+- To present the user with a website that is easy to navigate, fully responsive and invokes a sense of calm through the use of appropriate colours and imagery. 
 - To enable the user to locate yoga studios in their local area if they wish to continue their practice.
 - To allow users to contribute their suggested yoga poses and sign up to the Mind Yoga Newsletter. 
 
 ## User Stories
 - ### First time user
-  - As a first time user I want to understand the main purpose of the site to see if my needs will be met.
+  - As a first time user I want to understand the main purpose of the site and learn about the benefits of yoga for my mental health.
   - As a first time user I want to be able to intuitively navigate the website and have a positive emotional experience. 
   - As a first time user I want to be able to browse yoga content without having to sign-up / register.
 
 - ### Returning User
-  - As a returning user I want to learn about the benefits of yoga for my mental health.
   - As a returning user I want to easily navigate to a yoga pose which matches my emotional state.  
   - As a returning user I want to find step by step instructions in order to complete the pose and to read about the emotional benefits.
   - As a returning user I want to be able to find yoga studios in my locality to further my practice.
 
 - ### Frequent User
-  - As a frequent user I want to be able to sign-up to the Mind Yoga newsletter in order to get updates about new poses added to the website
-  - As a returning user I want to be able to contribute my suggested yoga poses to further benefit other users.
+  - As a frequent user I want to be able to sign-up to the Mind Yoga newsletter in order to get updates about new poses added to the website.
+  - As a frequent user I want to be able to contribute my suggested yoga poses to further benefit other users.
 
 ## Design
 
@@ -40,8 +39,7 @@ The imagery used on the Mind Yoga site is very important to the overall experien
 The colour scheme of the website is white and green with varying shades of green used to tie in with the nature imagery. A dark grey font is used which has a good contrast with the light green and white backgrounds making it easy to read. 
 
 ### Fonts
-The Montserrat font is the main font used throughout the whole website with Sans Serif as the backup font in case for any reason the font isn't being imported into the site correctly. 
-
+The Montserrat font is the main font used throughout the whole website. This font was imported via [Google Fonts](https://fonts.google.com/). I'm using Sans Serif as a backup font, in case for any reason the main font isn't being imported into the site correctly.
 
 ## Wireframes
 Wireframes were produced using Balsamiq. 
@@ -99,8 +97,7 @@ Wireframes were produced using Balsamiq.
 
 - ### Contribute Section
     - The contribute section includes a background video of ocean waves with a form overlay.
-    - The user is invited to sign up to Mind Yoga to contribute their suggested Yoga pose and they can also opt in to receive the Mind Yoga Newsletter.
-    - The user can input their full name, email address and yoga pose suggestion. They can select the checkbox if they wish to receive the newsletter.
+    - The user is invited to sign up to Mind Yoga and contribute their suggested Yoga pose. They can also opt in to receive the Mind Yoga Newsletter by selecting the checkbox provided.
 
 ![Form section image](docs/readme_images/form-section.png) 
 
@@ -227,6 +224,6 @@ All images and videos were sourced from the below websites with thanks to the be
 - [Stack Overflow](https://stackoverflow.com/)
 
 ## Acknowledgments
-My mentor for their support and advice.
+My mentor Antonio for his support and advice.
 
-The Code Institute slack community for their quick responses and very helpful feedback.
+The Code Institute slack community for their quick responses and very helpful feedback!
