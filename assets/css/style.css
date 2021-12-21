@@ -342,7 +342,7 @@ textarea {
     color: #4b5054;
     border: none;
     display: block;
-    margin: 0 auto;    
+    margin: 0 auto;
 }
 
 .contribute-button:hover {
@@ -512,7 +512,7 @@ textarea {
 @media screen and (max-width: 480px) {
 
     #menu {
-        font-size: 75%;
+        font-size: 65%;
         font-weight: 600;
     }
 
@@ -526,7 +526,7 @@ textarea {
     }
 
     #menu a {
-        padding: 3px;
+        padding: 6px;
     }
 
     #cover-text {
@@ -558,6 +558,10 @@ textarea {
 @media screen and (max-width: 320px) {
     
     #menu {
-        font-size: 60%;
+        font-size: 55%;
+    }
+
+    #menu a {
+        padding: 4px;
     }
 }
