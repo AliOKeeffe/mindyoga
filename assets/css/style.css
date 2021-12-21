@@ -5,8 +5,8 @@ html, body {
     padding: 0;
 }
 
-.clear-both {
-    clear: both;
+html {
+    scroll-behavior: smooth;
 }
 
 body {
@@ -15,19 +15,8 @@ body {
     color: #4b5054;
 }
 
-html {
-    scroll-behavior: smooth;
-}
-
-/* Headings and logo */
-
-header {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    background-color: white;
-    z-index: 3;
-    box-shadow: 0 -20px 30px #000;
+.clear-both {
+    clear: both;
 }
 
 h1, h2 {
@@ -43,6 +32,17 @@ h2 {
 
 h3{
     text-transform: uppercase;
+}
+
+/* Header and logo */
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 3;
+    box-shadow: 0 -20px 30px #000;
 }
 
 #logo {
@@ -129,14 +129,12 @@ h3{
     background-size: cover;
 }
 
-
 #cover-text {
     position: absolute;
     right: 50px;
     bottom: 300px; 
     width: 400px;
-    height: auto;
-      
+    height: auto;    
 }
 
 #cover-text h2 {
@@ -368,12 +366,21 @@ textarea {
     color: #142a2b;
 }
 
-/* media queries */
+/* Media Queries */
 
 /* For small screens/laptops size from 1024px wide and down */
 
 @media screen and (max-width: 1024px) {
     
+    #menu {
+        font-size: 100%;
+    }
+
+    #menu ul, #menu li {
+        padding: 0;
+        margin: 0;
+    }
+
     #cover-text h2 {
         font-size: 160%;
     }
@@ -428,7 +435,6 @@ textarea {
         text-align: center;
         margin-top: 20px;
     }
-
 }
 
 /* For iPad/tablet sizes from 768px wide and down */
@@ -501,7 +507,7 @@ textarea {
 @media screen and (max-width: 480px) {
 
     #menu {
-        font-size: 50%;
+        font-size: 68%;
     }
 
     #logo {
@@ -509,7 +515,7 @@ textarea {
     }
 
     #logo, #menu {
-        margin-left: 10px;
+        margin-left: 8px;
         line-height: 30px;
     }
 
@@ -535,5 +541,13 @@ textarea {
     .social-networks i {
         font-size: 140%;
         padding: 0 20px;
+    }
+}
+
+/* For mobile device sizes from 300px wide and down */
+@media screen and (max-width: 320px) {
+    
+    #menu {
+        font-size: 55%;
     }
 }

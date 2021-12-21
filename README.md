@@ -111,7 +111,7 @@ Wireframes were produced using Balsamiq.
 
 ### Features Left to Implement
 - Burger button for the mobile nav bar.
-- The ability to search by emotion as the bank of poses grows
+- The ability to search by emotion as the bank of poses grows.
 
 ## Testing
 
@@ -134,7 +134,7 @@ Wireframes were produced using Balsamiq.
 - Social Media links in the footer of each page were tested manually to ensure they direct the user to the correct page and open in a new tab. 
 
 ### Browser Testing
-- The Website was tested on Google Chrome, Internet Explorer, Firefox, Microsoft Edge, Safari browsers.
+- The Website was tested on Google Chrome, Firefox, Microsoft Edge, Safari browsers.
     
 ### Device Testing
 - The website was viewed on a variety of devices such as Desktop, Laptop, iPhone 8, iPhoneX and iPad to ensure responsiveness on various screen sizes. The website performed as intended. The responsive design was also checked using Chrome developer tools across multiple devices with structural integrity holding for the various sizes.
