@@ -454,10 +454,6 @@ textarea {
         font-size: 100%;
     }
 
-    .spacing-under-nav {
-        top: -80px;
-    }
-    
     #menu, #logo {
         line-height: 40px;
     }
@@ -474,6 +470,10 @@ textarea {
     
     #menu a {
         padding: 5px;
+    }
+    
+    .spacing-under-nav {
+        top: -80px;
     }
     
     #cover-text h2 {
@@ -507,7 +507,7 @@ textarea {
 @media screen and (max-width: 480px) {
 
     #menu {
-        font-size: 68%;
+        font-size: 75%;
     }
 
     #logo {
@@ -517,6 +517,10 @@ textarea {
     #logo, #menu {
         margin-left: 8px;
         line-height: 30px;
+    }
+
+    #menu a {
+        padding: 3px;
     }
 
     #cover-text {
@@ -544,10 +548,10 @@ textarea {
     }
 }
 
-/* For mobile device sizes from 300px wide and down */
+/* For mobile device sizes from 320px wide and down */
 @media screen and (max-width: 320px) {
     
     #menu {
-        font-size: 55%;
+        font-size: 60%;
     }
 }
