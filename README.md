@@ -220,7 +220,7 @@ All images and videos were sourced from the below websites with thanks to the be
 
 ### Resources Used
 
-- [W3Schools](https://www.w3schools.com/)
+- Inspiration for dropdown nav bar - [W3Schools](https://www.w3schools.com/)
 - [Stack Overflow](https://stackoverflow.com/)
 
 ## Acknowledgments
